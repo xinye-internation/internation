@@ -20,8 +20,8 @@ use app\exception\SuccessMessage;
 
 class Index
 {
-    public function index($name){
+    public function index($id){
         (new IDCheck())->goCheck();
-        echo $name;
+        echo $id;
     }
 }
