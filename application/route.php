@@ -10,14 +10,7 @@
 // +----------------------------------------------------------------------
 use think\Route;
 
-Route::post("api/:v/token/user","api/:v.Token/getToken");
-
-Route::get("api/:v/index","api/:v.Index/index");
-Route::post("api/:v/signup","api/:v.Index/sign_up");
-Route::get("api/:v/driver/:driver_id","api/:v.Index/driver");
-Route::get("api/:v/discount","api/:v.Index/discount");
-
-Route::get("api/:v/answer/count/:type","api/:v.Answer/getTiKuCount");
+Route::get("api/:v/index","api/:v.index/index");
 
 
 return [
