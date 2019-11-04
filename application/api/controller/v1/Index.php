@@ -22,6 +22,6 @@ class Index
 {
     public function index($id){
         (new IDCheck())->goCheck();
-        echo $id;
+        echo $_SERVER["DOCUMENT_ROOT"] . $_SERVER["SCRIPT_NAME"];
     }
 }
