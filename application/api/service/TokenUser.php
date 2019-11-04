@@ -9,7 +9,7 @@
 namespace app\api\service;
 
 
-use app\api\model\User as UserModel;
+use app\api\model_fo\User as UserModel;
 use app\exception\TokenException;
 use app\exception\WeChatException;
 use think\Exception;

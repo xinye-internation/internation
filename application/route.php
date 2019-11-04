@@ -12,35 +12,12 @@ use think\Route;
 
 Route::post("api/:v/token/user","api/:v.Token/getToken");
 
-Route::get("api/:v/matter/startstudy/:id","api/:v.Matters/startStudyMatter");
-Route::get("api/:v/matter/stopstudy/:id","api/:v.Matters/stopStudyMatter");
-Route::post("api/:v/matter/create","api/:v.Matters/createMatter");
-Route::post("api/:v/matter/update","api/:v.Matters/updateMatter");
-Route::delete("api/:v/matter/delete/:id/:sign_id","api/:v.Matters/deleteMatter");
+Route::get("api/:v/index","api/:v.Index/index");
+Route::post("api/:v/signup","api/:v.Index/sign_up");
+Route::get("api/:v/driver/:driver_id","api/:v.Index/driver");
+Route::get("api/:v/discount","api/:v.Index/discount");
 
-Route::get("api/:v/sign/getmatters","api/:v.Sign/getSignDateOnMatters");
-Route::post("api/:v/sign/create","api/:v.Sign/createSign");
-Route::get("api/:v/sign/getmonth","api/:v.Sign/getMonthSign");
-Route::post("api/:v/sign/studytime","api/:v.Sign/setTodayStudyTime");
-Route::post("api/:v/sign/plantime","api/:v.Sign/setTodayPlanTime");
-
-Route::get("api/:v/future","api/:v.Future/getAllFuturePlans");
-Route::post("api/:v/future/create","api/:v.Future/createFuturePlan");
-Route::post("api/:v/future/update","api/:v.Future/updateFuturePlan");
-Route::delete("api/:v/future/delete/:id","api/:v.Future/deleteFuturePlan");
-
-Route::get("api/:v/ranking","api/:v.Ranking/getTodayRanking");
-Route::get("api/:v/rankingbycontinuity","api/:v.Ranking/getTodayRankingByContinuity");
-
-Route::post("api/:v/user/setmotto","api/:v.User/setMotto");
-Route::get("api/:v/user/getinformation","api/:v.User/getDetailedInformation");
-
-Route::post("api/:v/feedback", "api/:v.Feedback/setFeedback");
-
-//xina验证回调
-Route::get("/callback","index/index/callback");
-
-Route::get('message','index/index/message');
+Route::get("api/:v/answer/count/:type","api/:v.Answer/getTiKuCount");
 
 
 return [
