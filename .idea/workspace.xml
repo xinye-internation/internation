@@ -2,49 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a45caeb-8cbe-4b36-ae87-0346051012d5" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/controller/v1/Answer.php" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/api/validate/IDCheck.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/api/controller/v1/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/controller/v1/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/controller/v2/Feedback.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/controller/v2/Future.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/controller/v2/Matters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/controller/v2/Ranking.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/controller/v2/Sign.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/model/Advertising.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/model/BaseModel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/model/Coach.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/model/Discount.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/model/Driver.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/model/DriverImage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/model/Enroll.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/model/Image.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/model/Tiku.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/model_fo/BaseModel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/model_fo/Feedback.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/model_fo/Future.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/model_fo/Image.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/model_fo/Matters.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/model_fo/Sign.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/model_fo/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/service/Aphorisms.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/service/Token.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/service/TokenUser.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/validate/EnrollCheck.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/validate/IDCheck.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/validate/UserInformation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/exception/FeedbackException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/exception/FutureException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/exception/MatterException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/exception/ParamException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/exception/SignException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/exception/SuccessMessage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/exception/WeChatException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/extra/.setting.php.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/extra/mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/extra/wx.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/Index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/c1/Token.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/route.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,20 +55,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="242">
+              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/route.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            <state relative-caret-position="286">
+              <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/api/validate/BaseValidate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-132" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/api/validate/IDCheck.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -123,15 +98,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/exception/TokenException.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -141,8 +107,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/application/database.php" />
-        <option value="$PROJECT_DIR$/application/api/controller/v1/Index.php" />
         <option value="$PROJECT_DIR$/application/route.php" />
+        <option value="$PROJECT_DIR$/application/api/controller/v1/Index.php" />
       </list>
     </option>
   </component>
@@ -246,6 +212,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\web\internation\application\api\validate" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -283,12 +254,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572861152163</updated>
-      <workItem from="1572861155205" duration="1279000" />
+      <workItem from="1572861155205" duration="1733000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1279000" />
+    <option name="totallyTimeSpent" value="1733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -300,7 +271,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="调试" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -369,17 +340,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Index.php">
+    <entry file="file://$PROJECT_DIR$/application/route.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="286">
+          <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/route.php">
+    <entry file="file://$PROJECT_DIR$/application/api/validate/BaseValidate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        <state relative-caret-position="-132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/validate/IDCheck.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
         </state>
       </provider>
     </entry>

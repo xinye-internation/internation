@@ -14,12 +14,14 @@ use app\api\model\Advertising;
 use app\api\model\Driver;
 use app\api\model\Enroll;
 use app\api\validate\EnrollCheck;
+use app\api\validate\IDCheck;
 use app\exception\SuccessMessage;
 
 
 class Index
 {
-    public function index(){
-        phpinfo();
+    public function index($name){
+        (new IDCheck())->goCheck();
+        echo $name;
     }
 }
