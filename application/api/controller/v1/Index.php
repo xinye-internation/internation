@@ -21,7 +21,6 @@ use app\exception\SuccessMessage;
 class Index
 {
     public function index($id){
-        (new IDCheck())->goCheck();
         echo $_SERVER["DOCUMENT_ROOT"] . $_SERVER["SCRIPT_NAME"];
     }
 }
